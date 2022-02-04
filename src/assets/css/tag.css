@@ -1,0 +1,12 @@
+.tag {
+    position: absolute;
+    background: #F89413;
+    width: 25%;
+    margin-left: 2.5%;
+    margin-top: 2vh;
+    height: 5vh;
+    border-radius: 1vh;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5vh;
+}
