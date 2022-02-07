@@ -6,6 +6,8 @@ import '../assets/css/footer.css'
 import '../assets/css/box.css'
 import '../assets/css/tag.css'
 import '../assets/css/text.css'
+import '../assets/css/foto.css'
+import '../assets/css/button.css'
 
 export default function Main() {
 
@@ -17,18 +19,44 @@ export default function Main() {
                 <div className='flex'>
                         <div className='container-1'>
                             <div className='box1'>
+                                <div className='timer-box'>
 
+                                </div>
+                                <div className='button-start'>
+
+                                </div>
+                                <div className='button-stop'>
+
+                                </div>
+                                <div className='ub-box'>
+
+                                </div>
+                                <div className='flex-box'>
+                                    <div className='button-medium'>
+
+                                    </div>
+                                    <div className='button-medium'>
+
+                                    </div>
+                                </div>
+                                <div className='button-stop'>
+
+                                </div>
+                                
                             </div>
                         </div>
                         <div className='container-2'>
                             <div className='box2'>
-                                <div>
-                                    <div>
-                                        test
+                                <div className="box4">
+                                    <div className='foto'>
+                                        <img className='images' src="https://ik.imagekit.io/fdu5ptj23co/test_B_7zxr8je.jpg"/>
                                     </div>
-                                    <div>
-                                        test
+                                    <div className='box5'>
+                                        <div className='queue-box'></div>
+                                        <div className='detail-box'></div>
                                     </div>
+                                </div>
+                                <div className='form-box'>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +131,9 @@ export default function Main() {
                             </div>
                         </div>
                 </div>
-                <div className='footer'></div>
+                <div className='footer'>
+                    
+                </div>
             </div>
         </>
     )

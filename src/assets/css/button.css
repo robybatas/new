@@ -1,0 +1,24 @@
+.button-start {
+    margin-top: 1vh;
+    width: 90%;
+    margin-left: 5%;
+    background: white;
+    border-radius: 1vh;
+    height: 10vh;
+}
+.button-stop {
+    margin-top: 1vh;
+    width: 90%;
+    margin-left: 5%;
+    background: white;
+    border-radius: 1vh;
+    height: 7.5vh;
+}
+.button-medium {
+    margin-top: 1vh;
+    width: 42.5%;
+    margin-left: 5%;
+    background: white;
+    border-radius: 1vh;
+    height: 7.5vh;
+}

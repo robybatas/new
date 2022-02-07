@@ -1,12 +1,14 @@
 .box1 {
     margin: 2vh;
-    height: 80vh;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    height: 78vh;
     border-radius: 1vh;
     background: rgba(27, 104, 171, 0.1);
 }
 .box2 {
     margin: 2vh;
-    margin-left: 0%;
+    margin-left: 0%; 
     margin-right: 0%;
     height: 80vh;
     border-radius: 1vh;
@@ -36,4 +38,57 @@
     vertical-align: bottom;
     line-height: 9vh;
     padding-bottom: 0%;
+}
+.box4 {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    height: 25vh;
+    padding-top: 2vh;
+}
+.box5 {
+    width: 26vw;
+    max-height: 25vh;
+}
+.queue-box {
+    width: 95%;
+    height: 14.5vh;
+    margin-left: 5%;
+    background: rgba(33, 90, 141, 0.95);
+    border-radius: 1vh;
+}
+.detail-box {
+    width: 95%;
+    margin-top: 1vh;
+    height: 9.5vh;
+    margin-left: 5%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1vh;
+}
+.form-box {
+    margin-top: 2vh;
+    width: 90%;
+    margin-left: 5%;
+    background: white;
+    border-radius: 1vh;
+    height: 48vh;
+}
+.timer-box {
+    padding-top: vh;
+    width: 90%;
+    margin-left: 5%;
+    background: white;
+    border-radius: 1vh;
+    height: 13vh;
+}
+.ub-box {
+    margin-top: 1vh;
+    width: 90%;
+    margin-left: 5%;
+    background: white;
+    border-radius: 1vh;
+    height: 24vh;
+}
+.flex-box {
+    display: flex;
 }
